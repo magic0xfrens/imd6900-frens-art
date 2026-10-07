@@ -34,9 +34,9 @@ launch with a renderer of their own; once this one is deployed and checked on ch
 | FrenArtChunk2 | 0x9666A481e20F1dB59EEbD6c43D11Ae3505468c92 | #819 | same |
 | FrenArtChunk3 | 0x71BdEB749b3ee428730eBB3E9b34B03A99D82356 | #838 | 0xcbee71603d55caf38ea7e4e961e10d689110db7554cf5ffdbcf44c9f04930903 |
 | FrenArtChunk4 | 0x0C344484D960B8474a1EdcB5A5128e8D9C9F6B4d | #838 | same |
-| FrenArtChunk5 | 0x8734632850A8dFF2b18f49807aD321501A56906e | #868 | 0x218f211397a3ffa3be307384497b43b95a2e9db76d5dad20da6e9f1625603938 |
-| FrenArtChunk6 | 0x11D5564E9D41ccbB4fB92DF2D719282C90c959Fd | #868 | same |
-| FrenArtChunk7 | 0xcfC3c7D69AeA5a4F8dEa3105b66cF51cb63a12c0 | #868 | same |
+| FrenArtChunk5 | 0x8734632850a8DFf2b18F49807AD321501A56906e | #868 | 0x218f211397a3ffa3be307384497b43b95a2e9db76d5dad20da6e9f1625603938 |
+| FrenArtChunk6 | 0x11D5564E9d41ccbb4Fb92dF2D719282c90C959fD | #868 | same |
+| FrenArtChunk7 | 0xcfc3C7D69aEa5a4f8deA3105b66CF51cB63A12C0 | #868 | same |
 | **FrenRenderer** | **0xC92495Adc59d711A89A91cc8D90d8F7d92D075ba** | #868 | same |
 
 Each chunk's code hash is the one FrenArtIndex names. `test/OnChainRenderer.fork.t.sol` (RENDERER=0xC924…75ba) checks the
