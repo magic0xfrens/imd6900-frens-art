@@ -22,7 +22,7 @@ s = s[:a] + s[b:]
 s = s.replace('import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";',
               'import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";\nimport {FrenArtIndex} from "./FrenArtIndex.sol";')
 s = s.replace("/// @notice The art lives in data contracts (see FrenArt):",
-              "/// @notice The art lives in seven data contracts, FrenArtChunk1..7 (FrenArtIndex says what is where), each checked by\n///         its code hash when this is deployed:")
+              "/// @notice The art lives in seven data contracts, FrenArtChunk1..7 (FrenArtIndex says what is where), each checked by\n///         its code hash on every art read (the constructor only stores addresses):")
 state = s[s.index("    address public immutable palette;"):s.index("    /* ── metadata")]
 s = s.replace(state, '''    uint256 public constant faceLayers = FrenArtIndex.FACE_LAYERS;
     uint8 public constant shadow = FrenArtIndex.SHADOW; // the palette's dark lens green (the art's own)

@@ -7,7 +7,7 @@ import {FrenArtIndex} from "./FrenArtIndex.sol";
 
 /// @title FrenRenderer - draws an IMD6900 fren on chain
 /// @notice The art lives in seven data contracts, FrenArtChunk1..7 (FrenArtIndex says what is where), each checked by
-///         its code hash when this is deployed:
+///         its code hash on every art read (the constructor only stores addresses):
 ///  - a 256-colour palette;
 ///  - each character's 13 faces (each distinct face kept once; a table points each character's faces at them);
 ///  - 3 lab coats, one fitted to each character;
